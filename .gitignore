@@ -1,0 +1,37 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore any .terraform directories
+**/.terraform/*
+
+# Ignore local .env files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
